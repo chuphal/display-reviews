@@ -1,0 +1,87 @@
+.main-heading {
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+}
+
+.review-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px auto;
+  max-width: 900px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+}
+.review-logo-email {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.review-avatar {
+  margin-right: 16px;
+}
+
+.review-logo {
+  width: 50px;
+}
+
+.review-user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-username {
+  font-weight: bold;
+}
+
+.review-user-info a {
+  color: #00a680;
+  text-decoration: none;
+}
+
+.review-user-info a:hover {
+  text-decoration: underline;
+}
+
+.review-rating {
+  color: gold;
+  margin-top: 4px;
+}
+
+.review-date {
+  color: #888;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-left: 12px;
+}
+
+.review-body {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-left: 70px;
+}
+
+.review-body strong {
+  background-color: #f9f9a1;
+}
+
+.review-user-site-info {
+  margin-bottom: 1px;
+}
+.review-utilities {
+  margin-top: 18px;
+}
+
+.tippsyTool {
+  background-color: white;
+  color: black;
+  z-index: 10;
+  opacity: 1;
+}
